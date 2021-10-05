@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,500,600,700&display=swap"
+        rel="stylesheet">
+
+    <title>AyuClass</title>
+
+    <style>
+        .title_sign_in {
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 1.25;
+            color: #27303f;
+        }
+        .form_forgot_link{
+            margin: 15px 0px;
+        }
+        form{
+            width: 300px;
+            height: 400px;
+            /* background-color: red; */
+        }
+
+        label{
+            color: #27303f;
+            font-size: 16px;
+            font-weight: 500;
+            margin: 10px 5px ;
+        }
+
+        input{
+            margin: 3px;
+        }
+
+        p {
+            font-weight: 500;
+            color: #27303f;
+        }
+
+        a {
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        button{
+            width: 300px;
+            height: 50px;
+            background-color: royalblue;
+            color: white;
+            border: 1px solid royalblue;
+            border-radius: 5px;
+            font-size: 17px;
+        }
+
+        button:hover{
+            background-color:rgb(22, 127, 233);
+            transition: .5s ease-out;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <section>
+        <div class="container d-flex justify-content-center align-items-center p-2 flex-column">
+            <div class="logo">
+                <img src="login_logo.png" class="img-fluid" width="100" height="100">
+            </div>
+            <div class="m-2">
+                <h2 class="title_sign_in">Sign in</h2>
+            </div>
+            <p>Don't have an account?<a href="signup.html">Sign up</a></p>
+            <form>
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email / Username</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" required="password">
+                    </div>
+                    <div class="form_forgot_link">
+                        <a href="">Forgot Password?</a>
+                      </div>
+                    <button type="submit" class="button">Sign in</button>
+                  </form>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
