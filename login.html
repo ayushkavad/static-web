@@ -13,62 +13,18 @@
 
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,500,600,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="login.css">    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-215783505-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
+        gtag('config', 'UA-215783505-1');
+    </script>
     <title>AyuClass</title>
 
-    <style>
-        .title_sign_in {
-            font-size: 30px;
-            font-weight: 800;
-            line-height: 1.25;
-            color: #27303f;
-        }
-        .form_forgot_link{
-            margin: 15px 0px;
-        }
-        form{
-            width: 300px;
-            height: 400px;
-            /* background-color: red; */
-        }
-
-        label{
-            color: #27303f;
-            font-size: 16px;
-            font-weight: 500;
-            margin: 10px 5px ;
-        }
-
-        input{
-            margin: 3px;
-        }
-
-        p {
-            font-weight: 500;
-            color: #27303f;
-        }
-
-        a {
-            text-decoration: none;
-            margin: 5px;
-        }
-
-        button{
-            width: 300px;
-            height: 50px;
-            background-color: royalblue;
-            color: white;
-            border: 1px solid royalblue;
-            border-radius: 5px;
-            font-size: 17px;
-        }
-
-        button:hover{
-            background-color:rgb(22, 127, 233);
-            transition: .5s ease-out;
-        }
-
-    </style>
 
 </head>
 
@@ -87,18 +43,19 @@
             <form>
                 <form>
                     <div class="form-group">
-                      <label for="exampleInputEmail1">Email / Username</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required="email">
+                        <label for="exampleInputEmail1">Email / Username</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            required="email">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" required="password">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" required="password">
                     </div>
                     <div class="form_forgot_link">
                         <a href="">Forgot Password?</a>
-                      </div>
+                    </div>
                     <button type="submit" class="button">Sign in</button>
-                  </form>
+                </form>
             </form>
         </div>
 

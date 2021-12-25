@@ -1,0 +1,58 @@
+.title_sign_in {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.25;
+    color: #27303f;
+}
+
+.form-check-input {
+    margin: 20px 0;
+
+}
+
+form {
+    width: 300px;
+    height: 400px;
+    /* background-color: red; */
+}
+
+label {
+    color: #27303f;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 5px;
+}
+
+.form-check-label {
+    font-weight: 400;
+}
+
+input {
+    margin: 3px;
+}
+
+p {
+    font-weight: 500;
+    color: #27303f;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    background-color: royalblue;
+    color: white;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+button:hover {
+    background-color: rgb(22, 127, 233);
+    transition: .5s ease-out;
+}
